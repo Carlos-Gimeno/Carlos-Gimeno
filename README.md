@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **gimeno.carlos94@icloud.com**
 
-- ⚡ Fun fact **I am passionate about technology, I love working in a team and learning from my colleagues.**
+- ⚡ Fun fact **I am passionate about technology, I love working in a team and learning from my workmates.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
