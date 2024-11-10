@@ -5,7 +5,7 @@
 
 - 🤝 I’m looking for help with [Curso OCP Java](https://github.com/PUE-Curso-OCP-Java-19-Enero-2024)
 
-- 💬 Ask me about **SQL, Java, Spring, Angular,TS.**
+- 💬 Ask me about **SQL, Java, Python.**
 
 - 📫 How to reach me **gimeno.carlos94@icloud.com**
 
