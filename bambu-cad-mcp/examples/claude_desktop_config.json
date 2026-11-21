@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "bambu-cad": {
+      "command": "uvx",
+      "args": [
+        "--python", "3.12",
+        "--from", "git+https://github.com/carlos-gimeno/carlos-gimeno#subdirectory=bambu-cad-mcp",
+        "--with", "paho-mqtt",
+        "bambu-cad-mcp"
+      ],
+      "env": {
+        "BAMBU_CAD_WORKSPACE": "~/BambuCAD",
+        "BAMBU_PRINTER_IP": "192.168.1.50",
+        "BAMBU_PRINTER_SERIAL": "TU_NUMERO_DE_SERIE",
+        "BAMBU_ACCESS_CODE": "CODIGO_LAN_8_DIGITOS"
+      }
+    }
+  }
+}

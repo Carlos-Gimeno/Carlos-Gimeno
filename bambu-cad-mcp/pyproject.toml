@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bambu-cad-mcp"
+version = "0.1.0"
+description = "MCP server: parametric CAD (build123d/OpenCascade) + printability analysis and LAN printing for the Bambu Lab P2S"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "mcp>=1.10",
+    "build123d>=0.9",
+    "trimesh>=4.0",
+    "numpy",
+    "scipy",
+    "networkx",
+    "lxml",
+    "rtree",
+    "pillow>=9",
+]
+
+[project.optional-dependencies]
+printer = ["paho-mqtt>=1.6"]
+dev = ["pytest"]
+
+[project.scripts]
+bambu-cad-mcp = "bambu_cad_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bambu_cad_mcp"]
